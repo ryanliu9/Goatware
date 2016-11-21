@@ -1,0 +1,193 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 18:52 ?        00:00:01 /sbin/init splash
+root         2     0  0 18:52 ?        00:00:00 [kthreadd]
+root         3     2  0 18:52 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 18:52 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 18:52 ?        00:00:01 [rcu_sched]
+root         8     2  0 18:52 ?        00:00:00 [rcu_bh]
+root         9     2  0 18:52 ?        00:00:00 [migration/0]
+root        10     2  0 18:52 ?        00:00:00 [watchdog/0]
+root        11     2  0 18:52 ?        00:00:00 [watchdog/1]
+root        12     2  0 18:52 ?        00:00:00 [migration/1]
+root        13     2  0 18:52 ?        00:00:00 [ksoftirqd/1]
+root        15     2  0 18:52 ?        00:00:00 [kworker/1:0H]
+root        16     2  0 18:52 ?        00:00:00 [kdevtmpfs]
+root        17     2  0 18:52 ?        00:00:00 [netns]
+root        18     2  0 18:52 ?        00:00:00 [perf]
+root        19     2  0 18:52 ?        00:00:00 [khungtaskd]
+root        20     2  0 18:52 ?        00:00:00 [writeback]
+root        21     2  0 18:52 ?        00:00:00 [ksmd]
+root        22     2  0 18:52 ?        00:00:01 [khugepaged]
+root        23     2  0 18:52 ?        00:00:00 [crypto]
+root        24     2  0 18:52 ?        00:00:00 [kintegrityd]
+root        25     2  0 18:52 ?        00:00:00 [bioset]
+root        26     2  0 18:52 ?        00:00:00 [kblockd]
+root        27     2  0 18:52 ?        00:00:00 [ata_sff]
+root        28     2  0 18:52 ?        00:00:00 [md]
+root        29     2  0 18:52 ?        00:00:00 [devfreq_wq]
+root        34     2  0 18:52 ?        00:00:00 [kswapd0]
+root        35     2  0 18:52 ?        00:00:00 [vmstat]
+root        36     2  0 18:52 ?        00:00:00 [fsnotify_mark]
+root        37     2  0 18:52 ?        00:00:00 [ecryptfs-kthrea]
+root        53     2  0 18:52 ?        00:00:00 [kthrotld]
+root        54     2  0 18:52 ?        00:00:00 [acpi_thermal_pm]
+root        55     2  0 18:52 ?        00:00:00 [bioset]
+root        56     2  0 18:52 ?        00:00:00 [bioset]
+root        57     2  0 18:52 ?        00:00:00 [bioset]
+root        58     2  0 18:52 ?        00:00:00 [bioset]
+root        59     2  0 18:52 ?        00:00:00 [bioset]
+root        60     2  0 18:52 ?        00:00:00 [bioset]
+root        61     2  0 18:52 ?        00:00:00 [bioset]
+root        62     2  0 18:52 ?        00:00:00 [bioset]
+root        63     2  0 18:52 ?        00:00:00 [bioset]
+root        64     2  0 18:52 ?        00:00:00 [bioset]
+root        65     2  0 18:52 ?        00:00:00 [bioset]
+root        66     2  0 18:52 ?        00:00:00 [bioset]
+root        67     2  0 18:52 ?        00:00:00 [bioset]
+root        68     2  0 18:52 ?        00:00:00 [bioset]
+root        69     2  0 18:52 ?        00:00:00 [bioset]
+root        70     2  0 18:52 ?        00:00:00 [bioset]
+root        71     2  0 18:52 ?        00:00:00 [bioset]
+root        72     2  0 18:52 ?        00:00:00 [bioset]
+root        73     2  0 18:52 ?        00:00:00 [bioset]
+root        74     2  0 18:52 ?        00:00:00 [bioset]
+root        75     2  0 18:52 ?        00:00:00 [bioset]
+root        76     2  0 18:52 ?        00:00:00 [bioset]
+root        77     2  0 18:52 ?        00:00:00 [bioset]
+root        78     2  0 18:52 ?        00:00:00 [bioset]
+root        79     2  0 18:52 ?        00:00:00 [scsi_eh_0]
+root        80     2  0 18:52 ?        00:00:00 [scsi_tmf_0]
+root        81     2  0 18:52 ?        00:00:00 [scsi_eh_1]
+root        82     2  0 18:52 ?        00:00:00 [scsi_tmf_1]
+root        87     2  0 18:52 ?        00:00:00 [ipv6_addrconf]
+root       101     2  0 18:52 ?        00:00:00 [deferwq]
+root       102     2  0 18:52 ?        00:00:00 [charger_manager]
+root       103     2  0 18:52 ?        00:00:00 [bioset]
+root       148     2  0 18:52 ?        00:00:00 [kpsmoused]
+root       151     2  0 18:52 ?        00:00:00 [kworker/1:1H]
+root       152     2  0 18:52 ?        00:00:00 [scsi_eh_2]
+root       153     2  0 18:52 ?        00:00:00 [scsi_tmf_2]
+root       154     2  0 18:52 ?        00:00:00 [bioset]
+root       181     2  0 18:52 ?        00:00:00 [kworker/0:1H]
+root       183     2  0 18:52 ?        00:00:00 [jbd2/sda1-8]
+root       184     2  0 18:52 ?        00:00:00 [ext4-rsv-conver]
+root       211     2  0 18:52 ?        00:00:00 [kauditd]
+root       217     1  0 18:52 ?        00:00:00 /lib/systemd/systemd-journald
+root       254     1  0 18:52 ?        00:00:00 /lib/systemd/systemd-udevd
+root       443     2  0 18:52 ?        00:00:00 [iprt-VBoxWQueue]
+root       575     2  0 18:52 ?        00:00:00 [ttm_swap]
+root       624     1  0 18:52 ?        00:00:00 /usr/sbin/ModemManager
+syslog     629     1  0 18:52 ?        00:00:00 /usr/sbin/rsyslogd -n
+whoopsie   632     1  0 18:52 ?        00:00:00 /usr/bin/whoopsie -f
+root       637     1  0 18:52 ?        00:00:00 /usr/sbin/acpid
+avahi      639     1  0 18:52 ?        00:00:00 avahi-daemon: running [ryanliu9-VirtualBox.local]
+avahi      654   639  0 18:52 ?        00:00:00 avahi-daemon: chroot helper
+message+   655     1  0 18:52 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       703     1  0 18:52 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       710     1  0 18:52 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       714     1  0 18:52 ?        00:00:00 /usr/sbin/cron -f
+root       728     1  0 18:52 ?        00:00:00 /lib/systemd/systemd-logind
+root       748     1  0 18:52 ?        00:00:00 /usr/lib/snapd/snapd
+root       823     1  0 18:52 ?        00:00:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       856     1  0 18:52 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       869     1  0 18:52 ?        00:00:00 /usr/sbin/lightdm
+root       955   703  0 18:52 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-00467f58-be3d-4336-9f05-21e4dd0929ba-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+root       969   869  3 18:52 tty7     00:04:29 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+nobody     970   703  0 18:52 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root       971     1  0 18:52 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      1026     1  0 18:52 ?        00:00:02 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root      1397   869  0 18:52 ?        00:00:00 lightdm --session-child 12 19
+rtkit     1511     1  0 18:52 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+root      1529     1  0 18:52 ?        00:00:00 /usr/lib/upower/upowerd
+colord    1546     1  0 18:52 ?        00:00:00 /usr/lib/colord/colord
+root      2474     1  0 18:57 ?        00:00:00 /usr/sbin/cups-browsed
+root      2477     2  0 18:57 ?        00:00:00 [kworker/0:0]
+ryanliu9  2610     1  0 18:59 ?        00:00:00 /lib/systemd/systemd --user
+ryanliu9  2616  2610  0 18:59 ?        00:00:00 (sd-pam)
+ryanliu9  2652     1  0 18:59 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ryanliu9  2655  1397  0 18:59 ?        00:00:00 /sbin/upstart --user
+ryanliu9  2668     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ryanliu9  2669  2668  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ryanliu9  2678     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --display
+ryanliu9  2680  2678  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --display
+ryanliu9  2686     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ryanliu9  2687  2686  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ryanliu9  2696     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+ryanliu9  2697  2696  0 18:59 ?        00:00:15 /usr/bin/VBoxClient --draganddrop
+ryanliu9  2792  2655  0 18:59 ?        00:00:00 upstart-udev-bridge --daemon --user
+ryanliu9  2805  2655  0 18:59 ?        00:00:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-o27DKsxBOF
+ryanliu9  2817  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ryanliu9  2862  2655  0 18:59 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+ryanliu9  2863  2655  0 18:59 ?        00:00:02 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ryanliu9  2865  2655  0 18:59 ?        00:00:00 gpg-agent --homedir /home/ryanliu9/.gnupg --use-standard-socket --daemon
+ryanliu9  2869  2655  0 18:59 ?        00:00:00 upstart-file-bridge --daemon --user
+ryanliu9  2870  2655  0 18:59 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ryanliu9  2872  2655  0 18:59 ?        00:00:19 /usr/bin/ibus-daemon --daemonize --xim
+ryanliu9  2878  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfsd
+ryanliu9  2888  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ryanliu9  2894  2872  0 18:59 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+ryanliu9  2899  2655  0 18:59 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ryanliu9  2900  2872  0 18:59 ?        00:00:03 /usr/lib/ibus/ibus-ui-gtk3
+ryanliu9  2905  2655  0 18:59 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ryanliu9  2910  2899  0 18:59 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ryanliu9  2913  2655  0 18:59 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ryanliu9  2924  2872  0 18:59 ?        00:00:06 /usr/lib/ibus/ibus-engine-simple
+ryanliu9  2936  2655  0 18:59 ?        00:00:02 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ryanliu9  2938  2655  0 18:59 ?        00:00:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ryanliu9  2947  2655  0 18:59 ?        00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+ryanliu9  2956  2655  0 18:59 ?        00:00:02 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+ryanliu9  2992  2655  0 18:59 ?        00:00:00 /usr/lib/dconf/dconf-service
+ryanliu9  3029  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ryanliu9  3035  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ryanliu9  3041  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ryanliu9  3047  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ryanliu9  3050  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+ryanliu9  3054  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ryanliu9  3058  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ryanliu9  3059  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ryanliu9  3077  2655  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ryanliu9  3102  2655  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+ryanliu9  3130  2655  0 18:59 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+ryanliu9  3146  2655  5 18:59 ?        00:05:56 compiz
+ryanliu9  3228  2947  0 18:59 ?        00:00:41 nautilus -n
+ryanliu9  3230  2947  0 18:59 ?        00:00:06 /usr/bin/gnome-software --gapplication-service
+ryanliu9  3232  2655  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+ryanliu9  3233  2947  0 18:59 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ryanliu9  3234  2947  0 18:59 ?        00:00:00 nm-applet
+ryanliu9  3239  2947  0 18:59 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ryanliu9  3293  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ryanliu9  3294  3232  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx3232x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/3232/2
+root      3297     1  0 18:59 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+ryanliu9  3320  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ryanliu9  3323  2655  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+root      3326     1  0 18:59 ?        00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+ryanliu9  3327  3232  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx3232x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/3232/3
+ryanliu9  3336  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ryanliu9  3343  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ryanliu9  3348  3323  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx3323x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/3323/2
+ryanliu9  3351  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ryanliu9  3386  2655  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ryanliu9  3425  2655  0 19:00 ?        00:00:51 /usr/lib/firefox/firefox
+ryanliu9  3475  2655  0 19:00 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ryanliu9  3501  2655  0 19:00 ?        00:00:19 /usr/lib/gnome-terminal/gnome-terminal-server
+ryanliu9  3507  3501  0 19:00 pts/17   00:00:00 bash
+ryanliu9  3552  2947  0 19:00 ?        00:00:00 zeitgeist-datahub
+ryanliu9  3559  2655  0 19:00 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+ryanliu9  3563  3559  0 19:00 ?        00:00:00 /usr/bin/zeitgeist-daemon
+ryanliu9  3572  2655  0 19:00 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ryanliu9  3620  2947  0 19:00 ?        00:00:00 update-notifier
+ryanliu9  3960  2947  0 19:01 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      3997     2  0 19:05 ?        00:00:02 [kworker/0:1]
+root      4047     2  0 19:08 ?        00:00:00 [kworker/1:0]
+ryanliu9  4083  2655  0 19:11 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ryanliu9  4115  2655  0 19:11 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/5
+ryanliu9  4238  2655  0 19:40 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+root      4343     2  0 19:53 ?        00:00:00 [kworker/1:2]
+ryanliu9  4413  3501  0 19:57 pts/1    00:00:00 bash
+ryanliu9  4731  2655  3 20:34 ?        00:00:24 gedit /home/ryanliu9/Documents/CSE2431/Goatware/renameProcess.c
+root      4761     2  0 20:35 ?        00:00:00 [kworker/u4:1]
+root      4784     2  0 20:41 ?        00:00:00 [kworker/u4:0]
+ryanliu9  4888  3507  0 20:47 pts/17   00:00:00 ./renameProcess
+ryanliu9  4889  4888  0 20:47 pts/17   00:00:00 sh -c /bin/sh -c 'ps -aef > processes.txt'
+ryanliu9  4890  4889  0 20:47 pts/17   00:00:00 /bin/sh -c ps -aef > processes.txt
+ryanliu9  4891  4890  0 20:47 pts/17   00:00:00 ps -aef
