@@ -24,7 +24,7 @@ void changeDir(const char *direct, int level) {
 			char name[strlen(entry->d_name)];
 			strcpy(name, entry->d_name);
 			char first = name[0];
-			if (first == '.') {
+			if (first == '.' || strcmp(name, "Goatware") == 0) {
 				continue;
 			}
 
