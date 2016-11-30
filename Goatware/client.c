@@ -34,7 +34,7 @@ int main(int argc , char *argv[])
 	recv(sock_fd, "file.txt");
 
 	if (close(sock_fd) < 0) {
-		perror("error closign socket");
+		perror("error closing socket");
 		exit(-1);
 	}
 	return 0;
@@ -58,11 +58,11 @@ int recv(int sock, char* file_name) {
 
 	/*create file*/
 	if((f = open("test2.txt", O_WRONLY|O_CREAT, 0644)) < 0) {
-		perror("could not creat file");
+		perror("could not create file");
 		return -1;
 	}
 
-	count = 0;
+	count = 0;s
 	file_size = 0;
 
 	while ((bytes_rcvd = recv(sock, recv_str, MAX_RECV, 0)) > 0) {

