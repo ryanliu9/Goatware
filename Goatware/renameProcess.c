@@ -1,5 +1,5 @@
 /* Short program to change the process PID and process name of this executable file */
-#include "renameProcess.h"
+#include "header.h"
 
 void changePID() {
 	// fork process to create a new PID and exit out of the parent process
