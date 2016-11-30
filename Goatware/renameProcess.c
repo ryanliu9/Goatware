@@ -1,18 +1,5 @@
 /* Short program to change the process PID and process name of this executable file */
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-
-void changePID();
-void changeProcessName();
-
-int main(int argc, char* argv[]) {
-	changeProcessName(argv);
-	return 0;
-}
+#include "renameProcess.h"
 
 void changePID() {
 	// fork process to create a new PID and exit out of the parent process
@@ -85,6 +72,6 @@ start:
 	fclose(fp);
 
 	// Run the program indefinitely 
-	goto start; 
+	//goto start; 
 }
 
