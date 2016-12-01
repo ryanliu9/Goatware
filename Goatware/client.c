@@ -1,19 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>      // strlen
-#include <sys/socket.h>  // socket
-#include <arpa/inet.h>   // inet_addr
-#include <unistd.h>      // write
-#include <fcntl.h>
+#include "header.h"
 
-#define SRV_PORT 5000
-#define MAX_RECV 512
-#define MAX_SEND 512
-#define SRV_IP "192.168.56.101"
+void send_filename(int, char*);
+int send_file(int sock, char *file_name, const char *cwdFile);
 
-int recv(int ,char*);
-
-int main(int argc , char *argv[])
+int client(char *filename, const char *cwdFile)
 {
 	int sock_fd;
 	struct sockaddr_in srv_addr;
@@ -31,49 +21,60 @@ int main(int argc , char *argv[])
 		exit(-1);
 	}
 
-	recv(sock_fd, "file.txt");
+	send_filename(sock_fd, filename);
+	sleep(1);
+	send_file(sock_fd, filename, cwdFile);
 
 	if (close(sock_fd) < 0) {
-		perror("error closing socket");
+		perror("error closign socket");
 		exit(-1);
 	}
 	return 0;
 }
 
-int recv(int sock, char* file_name) {
+void send_filename(int sock, char* filename) {
 	char send_str[MAX_SEND];
-	int f;
-	ssize_t bytes_sent, bytes_rcvd, file_size;
-	int count;
-	char recv_str[MAX_RECV];
+	ssize_t bytes_sent;
 	size_t send_strlen;
 
-	sprintf(send_str, "%s\n", file_name);
+	sprintf(send_str, "%s\n", filename);
 	send_strlen = strlen(send_str);
 
-	if((bytes_sent = send(sock, file_name, send_strlen, 0)) < 0) {
+	if((bytes_sent = send(sock, filename, send_strlen, 0)) < 0) {
 		perror("send error");
-		return -1;
+		return;
 	}
+	return;
+}
 
-	/*create file*/
-	if((f = open("test2.txt", O_WRONLY|O_CREAT, 0644)) < 0) {
-		perror("could not create file");
-		return -1;
-	}
+int send_file(int sock, char *file_name, const char *cwdFile) {
+	int count;
+	ssize_t bytes_read, bytes_sent, file_size;
+	char send_buf[MAX_SEND];
+	char * errmsg = "File not found\n";
+	int f;
 
-	count = 0;s
+	count = 0;
 	file_size = 0;
 
-	while ((bytes_rcvd = recv(sock, recv_str, MAX_RECV, 0)) > 0) {
-		count++;
-		file_size += bytes_rcvd;
-
-		if (write(f, recv_str, bytes_rcvd) < 0) {
-			perror("could not write to file");
+	if ((f = open(cwdFile, O_RDONLY)) < 0) {
+		perror(file_name);
+		if((bytes_sent = send(sock, errmsg, strlen(errmsg), 0)) < 0) {
+			perror("error sending file");
 			return -1;
 		}
 	}
-	close(f);
-	return file_size;
+	else {
+		while((bytes_read = read(f, send_buf, MAX_RECV)) > 0) {
+			if((bytes_sent = send(sock, send_buf, bytes_read, 0)) < bytes_read) {
+				perror("error sending file");
+				return -1;
+			}
+			count++;
+			file_size += bytes_sent;
+		}
+		close(f);
+	}
+
+	return count;
 }

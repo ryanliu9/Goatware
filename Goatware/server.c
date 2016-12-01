@@ -13,7 +13,7 @@
 #define SRV_IP "192.168.56.101"
 
 void get_filename(int, char*);
-int send_file(int , char*);
+int recv(int sock, char* file_name);
 
 int main(int argc , char *argv[])
 {
@@ -57,7 +57,7 @@ int main(int argc , char *argv[])
 		inet_ntop(AF_INET, &(cli_addr.sin_addr), print_addr, INET_ADDRSTRLEN);
 
 		get_filename(conn_fd, filename);
-		send_file(conn_fd, filename);
+		recv(conn_fd, filename);
 		close(conn_fd);
 	}
 
@@ -77,34 +77,30 @@ void get_filename(int sock, char* filename) {
 	sscanf(recv_str, "%s\n", filename);
 }
 
-int send_file(int sock, char *file_name) {
-	int count;
-	ssize_t bytes_read, bytes_sent, file_size;
-	char send_buf[MAX_SEND];
-	char * errmsg = "File not found\n";
+int recv(int sock, char* file_name) {
 	int f;
+	ssize_t bytes_rcvd, file_size;
+	int count;
+	char recv_str[MAX_RECV];
+
+	/*create file*/
+	if((f = open(file_name, O_WRONLY|O_CREAT, 0644)) < 0) {
+		perror("could not creat file");
+		return -1;
+	}
 
 	count = 0;
 	file_size = 0;
 
-	if ((f = open(file_name, O_RDONLY)) < 0) {
-		perror(file_name);
-		if((bytes_sent = send(sock, errmsg, strlen(errmsg), 0)) < 0) {
-			perror("error sending file");
+	while ((bytes_rcvd = recv(sock, recv_str, MAX_RECV, 0)) > 0) {
+		count++;
+		file_size += bytes_rcvd;
+
+		if (write(f, recv_str, bytes_rcvd) < 0) {
+			perror("could not write to file");
 			return -1;
 		}
 	}
-	else {
-		while((bytes_read = read(f, send_buf, MAX_RECV)) > 0) {
-			if((bytes_sent = send(sock, send_buf, bytes_read, 0)) < bytes_read) {
-				perror("error sending file");
-				return -1;
-			}
-			count++;
-			file_size += bytes_sent;
-		}
-		close(f);
-	}
-
-	return count;
+	close(f);
+	return file_size;
 }

