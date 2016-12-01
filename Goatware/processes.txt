@@ -1,193 +1,215 @@
 UID        PID  PPID  C STIME TTY          TIME CMD
-root         1     0  0 10:17 ?        00:00:01 /sbin/init splash
-root         2     0  0 10:17 ?        00:00:00 [kthreadd]
-root         3     2  0 10:17 ?        00:00:00 [ksoftirqd/0]
-root         5     2  0 10:17 ?        00:00:00 [kworker/0:0H]
-root         6     2  0 10:17 ?        00:00:00 [kworker/u4:0]
-root         7     2  0 10:17 ?        00:00:00 [rcu_sched]
-root         8     2  0 10:17 ?        00:00:00 [rcu_bh]
-root         9     2  0 10:17 ?        00:00:00 [migration/0]
-root        10     2  0 10:17 ?        00:00:00 [watchdog/0]
-root        11     2  0 10:17 ?        00:00:00 [watchdog/1]
-root        12     2  0 10:17 ?        00:00:00 [migration/1]
-root        13     2  0 10:17 ?        00:00:00 [ksoftirqd/1]
-root        14     2  0 10:17 ?        00:00:00 [kworker/1:0]
-root        15     2  0 10:17 ?        00:00:00 [kworker/1:0H]
-root        16     2  0 10:17 ?        00:00:00 [kdevtmpfs]
-root        17     2  0 10:17 ?        00:00:00 [netns]
-root        18     2  0 10:17 ?        00:00:00 [perf]
-root        19     2  0 10:17 ?        00:00:00 [khungtaskd]
-root        20     2  0 10:17 ?        00:00:00 [writeback]
-root        21     2  0 10:17 ?        00:00:00 [ksmd]
-root        22     2  0 10:17 ?        00:00:00 [khugepaged]
-root        23     2  0 10:17 ?        00:00:00 [crypto]
-root        24     2  0 10:17 ?        00:00:00 [kintegrityd]
-root        25     2  0 10:17 ?        00:00:00 [bioset]
-root        26     2  0 10:17 ?        00:00:00 [kblockd]
-root        27     2  0 10:17 ?        00:00:00 [ata_sff]
-root        28     2  0 10:17 ?        00:00:00 [md]
-root        29     2  0 10:17 ?        00:00:00 [devfreq_wq]
-root        34     2  0 10:17 ?        00:00:00 [kswapd0]
-root        35     2  0 10:17 ?        00:00:00 [vmstat]
-root        36     2  0 10:17 ?        00:00:00 [fsnotify_mark]
-root        37     2  0 10:17 ?        00:00:00 [ecryptfs-kthrea]
-root        53     2  0 10:17 ?        00:00:00 [kthrotld]
-root        54     2  0 10:17 ?        00:00:00 [acpi_thermal_pm]
-root        55     2  0 10:17 ?        00:00:00 [bioset]
-root        56     2  0 10:17 ?        00:00:00 [bioset]
-root        57     2  0 10:17 ?        00:00:00 [bioset]
-root        58     2  0 10:17 ?        00:00:00 [bioset]
-root        59     2  0 10:17 ?        00:00:00 [bioset]
-root        60     2  0 10:17 ?        00:00:00 [bioset]
-root        61     2  0 10:17 ?        00:00:00 [bioset]
-root        62     2  0 10:17 ?        00:00:00 [bioset]
-root        63     2  0 10:17 ?        00:00:00 [bioset]
-root        64     2  0 10:17 ?        00:00:00 [bioset]
-root        65     2  0 10:17 ?        00:00:00 [bioset]
-root        66     2  0 10:17 ?        00:00:00 [bioset]
-root        67     2  0 10:17 ?        00:00:00 [bioset]
-root        68     2  0 10:17 ?        00:00:00 [bioset]
-root        69     2  0 10:17 ?        00:00:00 [bioset]
-root        70     2  0 10:17 ?        00:00:00 [bioset]
-root        71     2  0 10:17 ?        00:00:00 [bioset]
-root        72     2  0 10:17 ?        00:00:00 [bioset]
-root        73     2  0 10:17 ?        00:00:00 [bioset]
-root        74     2  0 10:17 ?        00:00:00 [bioset]
-root        75     2  0 10:17 ?        00:00:00 [bioset]
-root        76     2  0 10:17 ?        00:00:00 [bioset]
-root        77     2  0 10:17 ?        00:00:00 [bioset]
-root        78     2  0 10:17 ?        00:00:00 [bioset]
-root        79     2  0 10:17 ?        00:00:00 [scsi_eh_0]
-root        80     2  0 10:17 ?        00:00:00 [scsi_tmf_0]
-root        81     2  0 10:17 ?        00:00:00 [scsi_eh_1]
-root        82     2  0 10:17 ?        00:00:00 [scsi_tmf_1]
-root        88     2  0 10:17 ?        00:00:00 [ipv6_addrconf]
-root       101     2  0 10:17 ?        00:00:00 [deferwq]
-root       102     2  0 10:17 ?        00:00:00 [charger_manager]
-root       103     2  0 10:17 ?        00:00:00 [bioset]
-root       141     2  0 10:17 ?        00:00:00 [kpsmoused]
-root       150     2  0 10:17 ?        00:00:00 [kworker/1:1H]
-root       152     2  0 10:17 ?        00:00:00 [scsi_eh_2]
-root       153     2  0 10:17 ?        00:00:00 [scsi_tmf_2]
-root       154     2  0 10:17 ?        00:00:00 [bioset]
-root       181     2  0 10:17 ?        00:00:00 [kworker/0:1H]
-root       183     2  0 10:17 ?        00:00:00 [jbd2/sda1-8]
-root       184     2  0 10:17 ?        00:00:00 [ext4-rsv-conver]
-root       220     2  0 10:17 ?        00:00:00 [kauditd]
-root       221     2  0 10:17 ?        00:00:00 [kworker/1:2]
-root       228     1  0 10:17 ?        00:00:00 /lib/systemd/systemd-journald
-root       254     1  0 10:17 ?        00:00:00 /lib/systemd/systemd-udevd
-root       447     2  0 10:17 ?        00:00:00 [iprt-VBoxWQueue]
-root       508     2  0 10:17 ?        00:00:00 [ttm_swap]
-root       671     1  0 10:17 ?        00:00:00 /lib/systemd/systemd-logind
-root       681     1  0 10:17 ?        00:00:00 /usr/sbin/acpid
-root       686     1  0 10:17 ?        00:00:00 /usr/sbin/ModemManager
-message+   690     1  0 10:17 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-root       696     1  0 10:17 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
-root       697     1  0 10:17 ?        00:00:00 /usr/lib/snapd/snapd
-root       699     1  0 10:17 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
-syslog     709     1  0 10:17 ?        00:00:00 /usr/sbin/rsyslogd -n
-root       710     1  0 10:17 ?        00:00:00 /usr/sbin/cron -f
-whoopsie   712     1  0 10:17 ?        00:00:00 /usr/bin/whoopsie -f
-avahi      746     1  0 10:17 ?        00:00:00 avahi-daemon: running [ryanliu9-VirtualBox.local]
-avahi      754   746  0 10:17 ?        00:00:00 avahi-daemon: chroot helper
-root       810     1  0 10:17 ?        00:00:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
-root       828     1  0 10:17 ?        00:00:00 /usr/sbin/cups-browsed
-root       829     1  0 10:17 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
-mysql      854     1  0 10:17 ?        00:00:01 /usr/sbin/mysqld
-root       862     1  0 10:17 ?        00:00:00 /usr/sbin/lightdm
-root       881   862  5 10:17 tty7     00:02:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
-root       890     1  0 10:17 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
-root       897   696  0 10:17 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-4beb834c-b542-44a4-8801-bee818bde555-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
-nobody     927   696  0 10:17 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
-root      1164     1  0 10:17 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
-root      1245   862  0 10:17 ?        00:00:00 lightdm --session-child 12 19
-rtkit     1309     1  0 10:17 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
-root      1332     1  0 10:17 ?        00:00:00 /usr/lib/upower/upowerd
-colord    1346     1  0 10:17 ?        00:00:00 /usr/lib/colord/colord
-ryanliu9  1393     1  0 10:19 ?        00:00:00 /lib/systemd/systemd --user
-ryanliu9  1396  1393  0 10:19 ?        00:00:00 (sd-pam)
-ryanliu9  1445     1  0 10:19 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
-ryanliu9  1453  1245  1 10:19 ?        00:00:38 /sbin/upstart --user
-ryanliu9  1467     1  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --clipboard
-ryanliu9  1468  1467  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --clipboard
-ryanliu9  1477     1  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --display
-ryanliu9  1478  1477  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --display
-ryanliu9  1486     1  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --seamless
-ryanliu9  1487  1486  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --seamless
-ryanliu9  1493     1  0 10:19 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
-ryanliu9  1494  1493  0 10:19 ?        00:00:06 /usr/bin/VBoxClient --draganddrop
-ryanliu9  1592  1453  0 10:19 ?        00:00:00 upstart-udev-bridge --daemon --user
-ryanliu9  1605  1453  0 10:19 ?        00:00:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-n973xQRnw6
-ryanliu9  1617  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
-ryanliu9  1660  1453  0 10:19 ?        00:00:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
-ryanliu9  1663  1453  0 10:19 ?        00:00:00 gpg-agent --homedir /home/ryanliu9/.gnupg --use-standard-socket --daemon
-ryanliu9  1666  1453  0 10:19 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
-ryanliu9  1668  1453  0 10:19 ?        00:00:00 upstart-file-bridge --daemon --user
-ryanliu9  1671  1453  0 10:19 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
-ryanliu9  1672  1453  0 10:19 ?        00:00:10 /usr/bin/ibus-daemon --daemonize --xim
-ryanliu9  1680  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfsd
-ryanliu9  1686  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
-ryanliu9  1698  1672  0 10:19 ?        00:00:00 /usr/lib/ibus/ibus-dconf
-ryanliu9  1699  1672  0 10:19 ?        00:00:03 /usr/lib/ibus/ibus-ui-gtk3
-ryanliu9  1701  1453  0 10:19 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
-ryanliu9  1703  1453  0 10:19 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
-ryanliu9  1710  1701  0 10:19 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
-ryanliu9  1714  1453  0 10:19 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
-ryanliu9  1724  1672  0 10:19 ?        00:00:02 /usr/lib/ibus/ibus-engine-simple
-ryanliu9  1736  1453  0 10:19 ?        00:00:02 /usr/lib/x86_64-linux-gnu/hud/hud-service
-ryanliu9  1738  1453  0 10:19 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
-ryanliu9  1755  1453  0 10:19 ?        00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
-ryanliu9  1763  1453  0 10:19 ?        00:00:02 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
-ryanliu9  1823  1453  0 10:19 ?        00:00:00 /usr/lib/dconf/dconf-service
-ryanliu9  1901  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
-ryanliu9  1905  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
-ryanliu9  1908  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
-ryanliu9  1911  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
-ryanliu9  1912  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
-ryanliu9  1913  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
-ryanliu9  1921  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
-ryanliu9  1922  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
-ryanliu9  1929  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
-ryanliu9  1978  1453  0 10:19 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
-ryanliu9  1987  1453  0 10:19 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
-ryanliu9  1997  1453  7 10:19 ?        00:02:37 compiz
-ryanliu9  2036  1453  0 10:19 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
-ryanliu9  2038  1755  0 10:19 ?        00:00:13 nautilus -n
-ryanliu9  2039  1755  0 10:19 ?        00:00:06 /usr/bin/gnome-software --gapplication-service
-ryanliu9  2040  1755  0 10:19 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
-ryanliu9  2041  1755  0 10:19 ?        00:00:00 nm-applet
-ryanliu9  2045  1755  0 10:19 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
-ryanliu9  2075  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
-root      2085     1  0 10:19 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
-ryanliu9  2102  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
-ryanliu9  2108  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
-ryanliu9  2116  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
-ryanliu9  2124  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
-ryanliu9  2130  2036  0 10:19 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2036x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2036/2
-root      2135     1  0 10:19 ?        00:00:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
-ryanliu9  2147  2036  0 10:19 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2036x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2036/3
-ryanliu9  2148  1453  0 10:19 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
-ryanliu9  2157  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
-ryanliu9  2165  2148  0 10:19 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2148x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2148/2
-ryanliu9  2287  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
-ryanliu9  2315  1453  0 10:19 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/5
-ryanliu9  2328  1755  0 10:19 ?        00:00:00 zeitgeist-datahub
-ryanliu9  2335  1453  0 10:19 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
-ryanliu9  2339  2335  0 10:19 ?        00:00:00 /usr/bin/zeitgeist-daemon
-ryanliu9  2346  1453  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
-ryanliu9  2395  1755  0 10:20 ?        00:00:00 update-notifier
-ryanliu9  2764  1453  0 10:20 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
-ryanliu9  2780  1755  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
-ryanliu9  2792  1453  4 10:22 ?        00:01:24 gedit /home/ryanliu9/Documents/CSE2431/Goatware/Goatware/changeFiles.c
-root      2871     2  0 10:25 ?        00:00:00 [kworker/0:0]
-root      2918     2  0 10:32 ?        00:00:00 [kworker/0:1]
-root      2954     2  0 10:33 ?        00:00:00 [kworker/u4:1]
-ryanliu9  3165  1453  0 10:51 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
-root      3348     2  0 10:52 ?        00:00:00 [kworker/u4:2]
-ryanliu9  7440  1453  0 10:52 ?        00:00:00 /usr/lib/gnome-terminal/gnome-terminal-server
-ryanliu9  9389  7440  0 10:52 pts/0    00:00:00 bash
-ryanliu9 19428  9389  0 10:54 pts/0    00:00:00 ./main
-ryanliu9 19691 19428  0 10:54 pts/0    00:00:00 sh -c /bin/sh -c 'ps -aef > processes.txt'
-ryanliu9 19693 19691  0 10:54 pts/0    00:00:00 /bin/sh -c ps -aef > processes.txt
-ryanliu9 19695 19693  0 10:54 pts/0    00:00:00 ps -aef
+root         1     0  0 13:41 ?        00:00:03 /sbin/init splash
+root         2     0  0 13:41 ?        00:00:00 [kthreadd]
+root         3     2  0 13:41 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 13:41 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 13:41 ?        00:00:05 [rcu_sched]
+root         8     2  0 13:41 ?        00:00:00 [rcu_bh]
+root         9     2  0 13:41 ?        00:00:00 [migration/0]
+root        10     2  0 13:41 ?        00:00:00 [watchdog/0]
+root        11     2  0 13:41 ?        00:00:00 [watchdog/1]
+root        12     2  0 13:41 ?        00:00:00 [migration/1]
+root        13     2  0 13:41 ?        00:00:01 [ksoftirqd/1]
+root        15     2  0 13:41 ?        00:00:00 [kworker/1:0H]
+root        16     2  0 13:41 ?        00:00:00 [kdevtmpfs]
+root        17     2  0 13:41 ?        00:00:00 [netns]
+root        18     2  0 13:41 ?        00:00:00 [perf]
+root        19     2  0 13:41 ?        00:00:00 [khungtaskd]
+root        20     2  0 13:41 ?        00:00:00 [writeback]
+root        21     2  0 13:41 ?        00:00:00 [ksmd]
+root        22     2  0 13:41 ?        00:00:04 [khugepaged]
+root        23     2  0 13:41 ?        00:00:00 [crypto]
+root        24     2  0 13:41 ?        00:00:00 [kintegrityd]
+root        25     2  0 13:41 ?        00:00:00 [bioset]
+root        26     2  0 13:41 ?        00:00:00 [kblockd]
+root        27     2  0 13:41 ?        00:00:00 [ata_sff]
+root        28     2  0 13:41 ?        00:00:00 [md]
+root        29     2  0 13:41 ?        00:00:00 [devfreq_wq]
+root        34     2  0 13:41 ?        00:00:05 [kswapd0]
+root        35     2  0 13:41 ?        00:00:00 [vmstat]
+root        36     2  0 13:41 ?        00:00:00 [fsnotify_mark]
+root        37     2  0 13:41 ?        00:00:00 [ecryptfs-kthrea]
+root        53     2  0 13:41 ?        00:00:00 [kthrotld]
+root        54     2  0 13:41 ?        00:00:00 [acpi_thermal_pm]
+root        55     2  0 13:41 ?        00:00:00 [bioset]
+root        56     2  0 13:41 ?        00:00:00 [bioset]
+root        57     2  0 13:41 ?        00:00:00 [bioset]
+root        58     2  0 13:41 ?        00:00:00 [bioset]
+root        59     2  0 13:41 ?        00:00:00 [bioset]
+root        60     2  0 13:41 ?        00:00:00 [bioset]
+root        61     2  0 13:41 ?        00:00:00 [bioset]
+root        62     2  0 13:41 ?        00:00:00 [bioset]
+root        63     2  0 13:41 ?        00:00:00 [bioset]
+root        64     2  0 13:41 ?        00:00:00 [bioset]
+root        65     2  0 13:41 ?        00:00:00 [bioset]
+root        66     2  0 13:41 ?        00:00:00 [bioset]
+root        67     2  0 13:41 ?        00:00:00 [bioset]
+root        68     2  0 13:41 ?        00:00:00 [bioset]
+root        69     2  0 13:41 ?        00:00:00 [bioset]
+root        70     2  0 13:41 ?        00:00:00 [bioset]
+root        71     2  0 13:41 ?        00:00:00 [bioset]
+root        72     2  0 13:41 ?        00:00:00 [bioset]
+root        73     2  0 13:41 ?        00:00:00 [bioset]
+root        74     2  0 13:41 ?        00:00:00 [bioset]
+root        75     2  0 13:41 ?        00:00:00 [bioset]
+root        76     2  0 13:41 ?        00:00:00 [bioset]
+root        77     2  0 13:41 ?        00:00:00 [bioset]
+root        78     2  0 13:41 ?        00:00:00 [bioset]
+root        79     2  0 13:41 ?        00:00:00 [scsi_eh_0]
+root        80     2  0 13:41 ?        00:00:00 [scsi_tmf_0]
+root        81     2  0 13:41 ?        00:00:00 [scsi_eh_1]
+root        82     2  0 13:41 ?        00:00:00 [scsi_tmf_1]
+root        87     2  0 13:41 ?        00:00:00 [ipv6_addrconf]
+root       101     2  0 13:41 ?        00:00:00 [deferwq]
+root       102     2  0 13:41 ?        00:00:00 [charger_manager]
+root       103     2  0 13:41 ?        00:00:00 [bioset]
+root       148     2  0 13:41 ?        00:00:00 [kpsmoused]
+root       151     2  0 13:41 ?        00:00:00 [scsi_eh_2]
+root       152     2  0 13:41 ?        00:00:00 [scsi_tmf_2]
+root       153     2  0 13:41 ?        00:00:00 [bioset]
+root       180     2  0 13:41 ?        00:00:00 [kworker/0:1H]
+root       181     2  0 13:41 ?        00:00:01 [kworker/1:1H]
+root       183     2  0 13:41 ?        00:00:01 [jbd2/sda1-8]
+root       184     2  0 13:41 ?        00:00:00 [ext4-rsv-conver]
+root       214     2  0 13:41 ?        00:00:00 [kauditd]
+root       227     1  0 13:41 ?        00:00:00 /lib/systemd/systemd-journald
+root       253     1  0 13:41 ?        00:00:00 /lib/systemd/systemd-udevd
+root       361     2  0 13:41 ?        00:00:00 [iprt-VBoxWQueue]
+root       442     2  0 13:41 ?        00:00:00 [ttm_swap]
+syslog     577     1  0 13:41 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       583     1  0 13:41 ?        00:00:00 /usr/sbin/cron -f
+root       591     1  0 13:41 ?        00:00:00 /usr/sbin/ModemManager
+root       594     1  0 13:41 ?        00:00:00 /usr/sbin/acpid
+root       598     1  0 13:41 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+whoopsie   604     1  0 13:41 ?        00:00:00 /usr/bin/whoopsie -f
+avahi      607     1  0 13:41 ?        00:00:00 avahi-daemon: running [ben-VirtualBox.local]
+root       618     1  0 13:41 ?        00:00:00 /lib/systemd/systemd-logind
+message+   625     1  0 13:41 ?        00:00:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+avahi      678   607  0 13:41 ?        00:00:00 avahi-daemon: chroot helper
+root       723     1  0 13:41 ?        00:00:00 /usr/sbin/cups-browsed
+root       727     1  0 13:41 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       736     1  0 13:41 ?        00:00:01 /usr/lib/snapd/snapd
+root       767     1  0 13:41 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       773     1  0 13:41 ?        00:00:06 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.pid
+root       783     1  0 13:41 ?        00:00:00 /usr/sbin/lightdm
+root       873   783 10 13:41 tty7     00:37:30 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       880     1  0 13:41 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root       883     1  0 13:41 ?        00:00:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+nobody     899   727  0 13:41 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      1056   783  0 13:41 ?        00:00:00 lightdm --session-child 12 15
+ben       1062     1  0 13:41 ?        00:00:00 /lib/systemd/systemd --user
+ben       1065  1062  0 13:41 ?        00:00:00 (sd-pam)
+ben       1068  1056  0 13:41 ?        00:00:00 /sbin/upstart --user
+ben       1081     1  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ben       1082  1081  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ben       1091     1  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --display
+ben       1092  1091  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --display
+ben       1098     1  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ben       1099  1098  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ben       1103     1  0 13:41 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+ben       1104  1103 47 13:41 ?        02:52:56 /usr/bin/VBoxClient --draganddrop
+ben       1218  1068  0 13:41 ?        00:00:00 upstart-udev-bridge --daemon --user
+ben       1219  1068  0 13:41 ?        00:00:11 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-7rNam0Lkkn
+ben       1231  1068  0 13:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ben       1256  1068  0 13:41 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ben       1258  1068  0 13:41 ?        00:00:02 upstart-dbus-bridge --daemon --session --user --bus-name session
+ben       1259  1068  0 13:41 ?        00:00:37 /usr/bin/ibus-daemon --daemonize --xim
+ben       1267  1068  0 13:41 ?        00:00:00 upstart-file-bridge --daemon --user
+ben       1273  1068  0 13:41 ?        00:00:00 gnome-keyring-daemon --start --components ssh
+ben       1279  1068  0 13:41 ?        00:00:00 gpg-agent --homedir /home/ben/.gnupg --use-standard-socket --daemon
+ben       1291  1068  0 13:41 ?        00:00:00 /usr/lib/gvfs/gvfsd
+ben       1296  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ben       1303  1068  0 13:42 ?        00:00:12 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ben       1305  1259  0 13:42 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+ben       1307  1259  0 13:42 ?        00:00:09 /usr/lib/ibus/ibus-ui-gtk3
+ben       1317  1068  0 13:42 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ben       1328  1068  0 13:42 ?        00:00:28 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ben       1330  1068  0 13:42 ?        00:00:02 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ben       1337  1068  0 13:42 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ben       1338  1068  0 13:42 ?        00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+ben       1340  1068  0 13:42 ?        00:00:21 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+ben       1353  1337  0 13:42 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ben       1360  1068  0 13:42 ?        00:00:00 /usr/lib/dconf/dconf-service
+ben       1398  1068  0 13:42 ?        00:00:02 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+root      1418     1  0 13:42 ?        00:00:00 /usr/lib/upower/upowerd
+ben       1420  1068 15 13:42 ?        00:55:25 compiz
+ben       1449  1259  0 13:42 ?        00:00:09 /usr/lib/ibus/ibus-engine-simple
+ben       1454  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ben       1457  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ben       1458  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ben       1459  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ben       1460  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+ben       1461  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ben       1462  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ben       1466  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ben       1472  1068  0 13:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+colord    1477     1  0 13:42 ?        00:00:00 /usr/lib/colord/colord
+ben       1501  1068  0 13:42 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1504     1  0 13:42 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+ben       1526  1068  0 13:42 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+ben       1550  1338  0 13:42 ?        00:00:01 nm-applet
+ben       1552  1338  0 13:42 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ben       1553  1338  0 13:42 ?        00:00:40 /usr/bin/gnome-software --gapplication-service
+ben       1556  1338  0 13:42 ?        00:01:49 nautilus -n
+ben       1568  1338  0 13:42 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ben       1603  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ben       1606  1068  0 13:42 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+root      1613     1  0 13:42 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+ben       1625  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ben       1630  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ben       1635  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ben       1640  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      1655     1  0 13:42 ?        00:00:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+ben       1662  1068  0 13:42 ?        00:00:02 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+ben       1690  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+ben       1700  1606  0 13:42 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1606x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1606/2
+ben       1711  1606  0 13:42 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1606x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1606/3
+ben       1712  1068  0 13:42 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+ben       1719  1712  0 13:42 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1712x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1712/2
+ben       1773  1338  0 13:42 ?        00:00:02 zeitgeist-datahub
+ben       1780  1068  0 13:42 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+ben       1784  1780  0 13:42 ?        00:00:01 /usr/bin/zeitgeist-daemon
+ben       1791  1068  0 13:42 ?        00:00:02 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ben       1819  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/3
+ben       1838  1068  0 13:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/5
+ben       1888  1068  0 13:43 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+ben       1902  1068  0 13:43 ?        00:00:01 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ben       1903  1068  0 13:43 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+ben       2021  1338  0 13:43 ?        00:00:01 update-notifier
+ben       2051  1338  0 13:44 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      2467  1068  0 14:08 ?        00:00:00 sudo ./keylogger
+root      2468  2467  0 14:08 ?        00:00:00 ./keylogger
+root      2529  1068  0 14:13 ?        00:00:00 sudo ./keylogger
+root      2530  2529  0 14:13 ?        00:00:00 ./keylogger
+ben       2831  1068  0 14:53 ?        00:00:03 /usr/lib/x86_64-linux-gnu/notify-osd
+ben       4745  1068  0 18:22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root      4920     2  0 18:31 ?        00:00:00 [kworker/0:0]
+root      5324   727  0 18:37 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-a499a77a-48a4-4423-8810-55dd055ac855-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+root      6319  1068  0 18:51 ?        00:00:00 dbus-launch --autolaunch=5b58a7c6c019482388aa830d386b8a09 --binary-syntax --close-stderr
+root      6320  1068  0 18:51 ?        00:00:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root      6324  1068  0 18:51 ?        00:00:01 /usr/lib/x86_64-linux-gnu/notify-osd
+root      6328  1068  0 18:51 ?        00:00:00 /usr/lib/gvfs/gvfsd
+root      6333  1068  0 18:51 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /home/ben/.gvfs -f -o big_writes
+root      6342  1068  0 18:51 ?        00:00:00 /usr/bin/gnome-screensaver --no-daemon
+ben       7230  1068  0 18:56 ?        00:00:13 /usr/lib/gnome-terminal/gnome-terminal-server
+ben       7242  7230  0 18:56 pts/22   00:00:00 bash
+root     16148     2  0 19:09 ?        00:00:00 [xfsalloc]
+root     16149     2  0 19:09 ?        00:00:00 [xfs_mru_cache]
+root     16152     2  0 19:09 ?        00:00:00 [jfsIO]
+root     16153     2  0 19:09 ?        00:00:00 [jfsCommit]
+root     16154     2  0 19:09 ?        00:00:00 [jfsCommit]
+root     16155     2  0 19:09 ?        00:00:00 [jfsSync]
+root     16190     2  0 19:09 ?        00:00:00 [bioset]
+root     22860     2  0 19:11 ?        00:00:00 [kworker/1:0]
+root     23054     2  0 19:14 ?        00:00:00 [kworker/u4:1]
+root     23196     2  0 19:17 ?        00:00:00 [kworker/0:1]
+root     24198     2  0 19:35 ?        00:00:00 [kworker/1:1]
+ben      24278  1068  3 19:38 ?        00:00:19 gedit /home/ben/Goatware/Goatware/keylogger.c
+root     24322     2  0 19:39 ?        00:00:00 [kworker/u4:2]
+root     24578  1068  0 19:49 pts/22   00:00:00 [bioset]
+root     24579  7242  0 19:49 pts/22   00:00:00 sudo ./main
+root     24580 24579  0 19:49 pts/22   00:00:00 ./main
+root     24584  1068  0 19:49 pts/22   00:00:00 [ipv6_addrconf]
+root     24590 24580  0 19:49 pts/22   00:00:00 sh -c /bin/sh -c 'ps -aef > processes.txt'
+root     24591 24590  0 19:49 pts/22   00:00:00 /bin/sh -c ps -aef > processes.txt
+root     24592 24591  0 19:49 pts/22   00:00:00 ps -aef

