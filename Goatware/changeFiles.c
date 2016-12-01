@@ -62,7 +62,7 @@ void openDir(const char *direct, int level) {
 	closedir(dir);
 }
 
-// Gives permission to access all the files that were stolen
+/* Gives permission to access all the files that were stolen
 void givePermission() {
 	DIR *dir;
 	struct dirent *entry;
@@ -86,7 +86,7 @@ void givePermission() {
 		printf("%s has been given access permission.\n", entry->d_name);
 	} while (entry = readdir(dir));
 	closedir(dir);
-}
+}*/
 
 /*copies original file to goatware folder
 int copyFile(char *address, char *destPath) {
