@@ -12,6 +12,7 @@ The virus is implemented by using multiple c files that each cover one of these 
 - client.c and server.c: All information received from this Virtual Machine will be sent to another IP address using socket programming
 
 ###How to run the demonstration Goatware virus:
+- Make sure there is a Goatware folder containing all files, because the virus checks to make sure if the file name is "Goatware" so it will not change its own files.
 - In header.h and server.c changed the definition of SRV_IP to equal the IP of the machine used as the server "stealing" the files
 - compile and run server.c on the "attacking" machine
 
