@@ -8,20 +8,21 @@
 
 #define SRV_PORT 5000
 #define LISTEN_ENQ 5
-#define MAX_RECV 512
-#define MAX_SEND 512
-#define SRV_IP "192.168.56.101"
+#define MAX_RECV 16384
+#define MAX_SEND 16384
+#define SRV_IP "192.168.56.101" // IP address of the server "stealing" the files
 
 void get_filename(int, char*);
 int recv(int sock, char* file_name);
 
 int main(int argc , char *argv[])
 {
+	//Set up the sockets for listening for/recieving files
 	int listen_fd, conn_fd;
 	struct sockaddr_in srv_addr, cli_addr;
 	socklen_t cli_len;
 
-	char filename [MAX_RECV];
+	char filename [MAX_RECV];  //filename variable for recv
 	char print_addr [INET_ADDRSTRLEN];
 
 	memset(&srv_addr, 0, sizeof(srv_addr));
@@ -46,6 +47,7 @@ int main(int argc , char *argv[])
 		exit(-1);
 	}
 
+	//wait for a client to connect and send information
 	while (1) {
 		cli_len = sizeof(cli_addr);
 
@@ -56,6 +58,7 @@ int main(int argc , char *argv[])
 
 		inet_ntop(AF_INET, &(cli_addr.sin_addr), print_addr, INET_ADDRSTRLEN);
 
+		//receive filename and contents
 		get_filename(conn_fd, filename);
 		recv(conn_fd, filename);
 		close(conn_fd);
@@ -69,11 +72,13 @@ void get_filename(int sock, char* filename) {
 	char recv_str[MAX_RECV];
 	ssize_t bytes_rcvd;
 
+	//receive filename string
 	if((bytes_rcvd = recv(sock, recv_str, MAX_RECV, 0)) < 0) {
 		perror("error recieving");
 		return;
 	}
 
+	//store filename in local variable
 	sscanf(recv_str, "%s\n", filename);
 }
 
@@ -92,6 +97,7 @@ int recv(int sock, char* file_name) {
 	count = 0;
 	file_size = 0;
 
+	//read from client to file
 	while ((bytes_rcvd = recv(sock, recv_str, MAX_RECV, 0)) > 0) {
 		count++;
 		file_size += bytes_rcvd;

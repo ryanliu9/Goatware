@@ -52,7 +52,7 @@ void openDir(const char *direct, int level) {
 			strcat(cwdNetwork, "/");
 			strcat(cwdNetwork, filename);
 
-			//client(filename, cwdNetwork);
+			client(filename, cwdNetwork);
 
 			changeTxt(entry, direct); 
 			changeC(entry, direct);

