@@ -2,7 +2,7 @@
 
 This project was created by Ben Clarke, Ryan Liu, and Evan Farrell.
 
-The purpose of this project is to create a some sort of virus software that 1. performs some sort of malicious activity to a user, and 2. uses network communication to send information to a remote server. Goatware is a malware which steals files and information from a user, and also subtly records a users keystrokes. Some of the main features of the malware include: 
+The purpose of this project is to create some sort of virus software that 1. performs some sort of malicious activity to a user, and 2. uses network communication to send information to a remote server. Goatware is a malware which steals files and information from a user, and also subtly records a users keystrokes. Some of the main features of the malware include: 
 
 The virus is implemented by using multiple c files that each cover one of these features of the malware, and then having a main c file (main.c) which combines all these methods into one operational virus file which is run. These files include:
 
@@ -12,9 +12,17 @@ The virus is implemented by using multiple c files that each cover one of these 
 - client.c and server.c: All information received from this Virtual Machine will be sent to another IP address using socket programming
 
 ###How to run the demonstration Goatware virus:
-- Go to the address of the malware
+- In header.h and server.c changed the definition of SRV_IP to equal the ip of the machine used as the server "stealing" the files
+- compile and run server.c on the "attacking" machine
+
+- Go to the address of the malware on the "victim" machine
 - Next, the user must type the command `make` into the terminal to run the makefile needed to compile the code.
 - the user must then type the command `sudo ./main.c` into the terminal to run the actual virus.
+
+###How to stop the PID Changin
+-enter 'cntl+C'
+-enter 'ps aux'
+-enter 'kill -9 [PID]' using the PID that the malware is currently set to
 
 
 ###Team Roles
